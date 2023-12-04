@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+:root{
+    --bg-green-btn : #26ae61;
+    --bg-footer :  #24324a;
+    --footer-text-color : #8a99b3;
+    --footer-sub-head: #FFFF;
+}
+html,*{
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.footer-font-color{
+    color: var(--footer-text-color) !important;
+}
+.bg-footer-color{
+    background-color: var(--bg-footer);
+}
+
+.custom-logo-head{
+    color: var(--bg-green-btn);
+}
+.custom-font-fam {
+    font-family: Comic Sans MS,sans-serif;
+}
+
+.card {
+    border-radius: 0 !important;
+
+}
+.custom-mt{
+    margin-top: 130px !important;
+
+}
+.custom-ml{
+    margin-left: 30%;
+}
+.custom-my-5{
+    margin-left: 15% !important;
+
+}
+.custom-width-card{
+    width: 40%;
+    padding: 15px;
+}
+.custom-rubik-font{
+    font-family: 'Rubik', sans-serif;
+
+}
+.custom-comic-font{
+    font-family: 'Comic Neue', cursive;
+}
+
+
+
+.custom-bg-blue{
+    background-color: #f9fcff;
+}
+.custom-nav-bg{
+    background-color: rgba(0, 0, 0, 0.83);
+}
+footer  p{
+    color: var(--footer-text-color) !important;
+    font-size: 0.9rem;
+}
+
+.card-scale:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.card-scale {
+    animation: scale ease 2s;
+    transition: all .3s linear;
+}
+
+footer {
+    background-color: #f8f9fa; /* Set your desired background color */
+    padding: 20px 0;
+  }
+  .footer-sub-head{
+    color: var(--footer-sub-head);
+}
+.custom-btn-color{
+    background-color: var(--bg-green-btn);
+    transition: none !important;
+    background-color: var(--bg-green-btn) !important;
+}
+.custom-btn-color:hover{
+    transition: none!important;
+    background-color: var(--bg-green-btn) !important;
+}
+.custom-btn-hover:hover{
+    color: var(--bg-green-btn)  !important;
+    background-color: white !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: var(--bs-dropdown-link-hover-color) !important;
+    background-color: var(--bg-green-btn) !important;
+}
+
+
+/* -------------------media query------------------ */
+
+  @media (max-width: 576px) {
+    .custom-width-card {
+      max-width: 100%;
+    }
+  }
+
+  /* Adjustments for smaller devices */
+  @media (max-width: 576px) {
+    .footer-logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .footer-links {
+      text-align: center;
+    }
+
+    .footer-links p {
+      margin-bottom: 5px;
+    }
+  }
+@media screen and (min-width: 250px) and (max-width: 700px) {
+    .nr-img {
+        width: 100%; /* Set the width to 100% or adjust as needed */
+        height: auto;
+    }
+    .card-width{
+        width: 100%;
+    }
+}
+ 
+@media (max-width: 1333px) {
+    .nav-btn{
+        flex-direction: column;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+
+@media (max-width : 1068px){
+    .md-display-none {
+        display: none !important;
+    }
+}
+
+
+@media (max-width:512px){
+    .button-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+  
