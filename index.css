@@ -41,6 +41,7 @@ html,*{
     margin-left: 15% !important;
 
 }
+
 .custom-width-card{
     width: 40%;
     padding: 15px;
@@ -53,18 +54,35 @@ html,*{
     font-family: 'Comic Neue', cursive;
 }
 
-
+.nav-bg-white{
+    background: white;
+}
 
 .custom-bg-blue{
     background-color: #f9fcff;
 }
 .custom-nav-bg{
     background-color: rgba(0, 0, 0, 0.83);
+    /* background-color: white; */
 }
 footer  p{
     color: var(--footer-text-color) !important;
     font-size: 0.9rem;
+    transition: color 0.3s ease !important;
 }
+footer p:hover{
+    cursor: pointer;
+    color: var(--bg-green-btn) !important;
+}
+#more span{
+    font-size: 0.9rem;
+    transition: color 0.3s ease !important;
+}
+#more span:hover{
+    cursor: pointer;
+    color: var(--bg-green-btn) !important;
+}
+
 
 .card-scale:hover {
     transform: scale(1.1);
@@ -100,7 +118,24 @@ footer {
     color: var(--bs-dropdown-link-hover-color) !important;
     background-color: var(--bg-green-btn) !important;
 }
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(131, 216, 131) !important;
+}
+.carousel-indicators{
+    bottom: -25px !important;
+}
 
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(77 153 77) !important;
+    
+}
 
 /* -------------------media query------------------ */
 
