@@ -12,21 +12,18 @@ html,*{
     margin: 0;
     scroll-behavior: smooth;
 }
-
 .footer-font-color{
     color: var(--footer-text-color) !important;
 }
 .bg-footer-color{
     background-color: var(--bg-footer);
 }
-
 .custom-logo-head{
     color: var(--bg-green-btn);
 }
 .custom-font-fam {
     font-family: Comic Sans MS,sans-serif;
 }
-
 .card {
     border-radius: 0 !important;
 
@@ -41,9 +38,8 @@ html,*{
 .custom-my-5{
     margin-left: 15% !important;
 }
-
 .custom-width-card{
-    width: 40%;
+    width: 50%;
     padding: 15px;
 }
 .custom-rubik-font{
@@ -53,11 +49,9 @@ html,*{
 .custom-comic-font{
     font-family: 'Comic Neue', cursive;
 }
-
 .nav-bg-white{
     background: white;
 }
-
 .custom-bg-blue{
     background-color: #fdffff;
 }
@@ -83,7 +77,6 @@ footer p:hover{
     cursor: pointer;
     color: var(--bg-green-btn) !important;
 }
-
 .card{
     --bs-card-border-color:rgb(233, 232, 232) !important;
 }
@@ -93,12 +86,10 @@ footer p:hover{
     background-color: #f9fcff;
     z-index: 2;
 }
-
 .card-scale {
     animation: scale ease 2s;
     transition: all .3s linear;
 }
-
 footer {
     background-color: #f8f9fa; 
   }
@@ -152,6 +143,9 @@ footer {
   @media (max-width: 576px) {
     .custom-width-card {
       max-width: 100%;
+    }
+    .custom-width-card{
+        width: 90% !important;
     }
   }
 
@@ -212,9 +206,6 @@ footer {
     }
     .nav-item{
         font-size: 14px !important;
-    }
-    #arrow-div{
-        display: none !important;
     }
 }
 @media (max-width : 1056px){
