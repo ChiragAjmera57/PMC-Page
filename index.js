@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 const mouseEntered = (element) =>{
+=======
+  const mouseEntered = (element) =>{
+>>>>>>> Stashed changes
     if (element) {
         const UlElement = element.querySelector('ul');
     
